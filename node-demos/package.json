@@ -1,0 +1,12 @@
+{
+  "name": "es6-node-demos",
+  "version": "0.0.1",
+  "description": "A set of demos of features of ES6 running in Node with the --harmony flags and other options",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hanoi": "node --harmony src/hanoi.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
