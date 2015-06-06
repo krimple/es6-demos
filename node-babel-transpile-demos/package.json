@@ -1,0 +1,15 @@
+{
+  "name": "node-babel-transpile-demos",
+  "version": "0.0.1",
+  "description": "A set of demos of features of ES6 running in Node with the --harmony flags and other options",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babelify": "node ./node_modules/.bin/babel src -d ./es5src"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^5.5.4"
+  }
+}
